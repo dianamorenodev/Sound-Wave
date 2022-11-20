@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Bold.ttf);
+
+}
+
+@font-face {
+  font-family: RobotoCondensedBold;
+  src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+  font-family: RobotoCondensedRegular;
+  src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #080624;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 2px solid #8147F0;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  color: #ACB0D0;
+  font-family: Roboto;
+}
+
+.menu:hover {
+  color: #ECECEC;
+}
+
+#singIn {
+  font-family: 'Roboto';
+  font-style: normal;
+  background: linear-gradient(90deg, #8147F0 1.04%, #9124D4 52.08%, #D424C2 91.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#login {
+  font-family: 'Roboto';
+  color: #ECECEC;
+}
+
+#btn-log {
+  background-color: #D424C2;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#btn-log:hover {
+  background-color: #8147F0;
+}
+
+#servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#servicio-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+#leyenda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#serv-1 {
+  font-family: RobotoCondensedBold;
+  color: #ECECEC;
+  font-size: 3rem;
+}
+
+#serv-2 {
+  font-family: RobotoCondensedRegular;
+  color: #ACB0D0;
+  font-size: 2rem;
+}
+
+#serv-3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+
+#headphones {
+  width: 9.5rem;
+  height: 9.5rem;
+}
+
+.arrow {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+#servicio-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  color: #ECECEC;
+  font-family: Roboto;
+}
+
+#serv-4 {
+  height: 20vh;
+  width: 700px;
+  background: linear-gradient(180deg, #26126F 0%, #5E1BA4 48.96%, #9124D4 100%);
+  border-radius: 15px 30px;
+  padding: 1rem;
+}
+
+#serv-4b {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #ECECEC;
+  font-family: Roboto;
+}
+
+#servicio-3 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.card-rep {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 200px;
+  height: 380px;
+  background: #160B41;
+  border-radius: 0.5em;
+  box-shadow: 0.3em 0.3em 0.7em #00000015;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin: 1.0rem;
+  padding: 0.5rem;
+}
+
+.card-rep:hover {
+  border-radius: 0px 30px 0px 30px;
+  animation: scale-up-center 0.5s;
+  box-shadow: 10px 10px 35px 3px rgba(129, 71, 240, 0.84);
+}
+
+.btn-rep {
+  width: 106px;
+  height: 40px;
+}
+
+.card-title-rep {
+  color: #ECECEC;
+  font-family: Roboto;
+}
+
+.card-text-rep {
+  color: #ACB0D0;
+  font-family: Roboto;
+}
+
+.cardImg {
+  border-radius: 15px;
+}
+
+.card-precio {
+  width: 250px;
+  height: 300px;
+  background-color: #160B41;
+  transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+    transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 1rem;
+}
+
+.card-precio:hover {
+  transform: scale(1.05);
+  background-color: #8147F0;
+  border: none;
+}
+
+#Precio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-head-price {
+  color: #ECECEC;
+  font-family: Roboto;
+  font-size: 40px;
+  text-align: center;
+}
+
+.card-title-price {
+  color: #ECECEC;
+  font-family: RobotoCondensedBold;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #D424C2;
+  text-align: center;
+  margin: 0%;
+  margin-top: 3rem;
+  color: #ECECEC;
+  font-family: Roboto;
+}
